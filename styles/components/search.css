@@ -1,0 +1,94 @@
+/*============================================
+          Search Style
+============================================*/
+
+#search {
+    border: 1px solid #D8D8D8;
+    background: #fff url(http://4.bp.blogspot.com/-TKSmfb6TkfI/VpzNP4DzndI/AAAAAAAADQc/x0HwXsaufcA/s000/search.png) 99% 50% no-repeat;
+    text-align: left;
+    padding: 6px 24px 6px 6px;
+}
+
+#search #s {
+    background: none;
+    color: #979797;
+    border: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+#content-search {
+    width: 300px;
+    padding: 15px 0;
+}
+
+#topsearch {
+    float: right;
+}
+
+#topsearch #s {
+    width: 220px;
+}
+
+
+/*============================================
+          Header Search   
+============================================*/
+
+.header-search {
+    display: block;
+    float: left;
+    margin-left: 20px;
+    padding: 3px;
+    position: relative;
+    text-align: center;
+    top: 15px;
+}
+
+.search-input {
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    font-family: inherit;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    opacity: 0.7;
+    padding: 8px 36px 8px 12px;
+    position: relative;
+    text-transform: capitalize;
+    transition: all 0.2s ease 0s;
+    width: 215px;
+    z-index: 1;
+}
+
+.search-input:focus {
+    opacity: 1;
+    width: 260px;
+}
+
+#searchsubmit,
+.search-button {
+    background: rgba(0, 0, 0, 0) url("http://3.bp.blogspot.com/-9qU1q4PiFqo/VpzNPsOAZ1I/AAAAAAAADQY/GkXf5Z-eSLA/s000/icon-search.png") no-repeat scroll center center;
+    border: 0 none;
+    color: transparent;
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    width: 34px;
+    z-index: 2;
+}
+
+#searchsubmit {
+    bottom: 0;
+    height: 30px;
+    top: auto;
+}

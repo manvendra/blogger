@@ -1,0 +1,103 @@
+/*============================================
+            Author below post
+============================================*/
+.imgautor {
+    float: left;
+}
+
+.postedby h2 {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    color: #333;
+    float: left;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    height: 30px;
+    margin-top: 0;
+    overflow: hidden;
+    padding-left: 0;
+    text-align: left;
+    text-transform: uppercase;
+    width: 70%;
+}
+
+.postedby p {
+    color: #666;
+    float: left;
+    font-family: FontAwesome;
+    font-size: 14px;
+    letter-spacing: 0;
+    margin-top: -13px;
+    text-transform: none;
+    width: 80%;
+}
+
+.postedby {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    float: left;
+    margin: 0 auto;
+    padding: 20px;
+    width: 95%;
+}
+
+.postedby .author-image {
+    display: block;
+    float: left;
+}
+
+.postedby .author-image img {
+    border-radius: 50%;
+    margin-right: 10px;
+    max-width: 94px;
+    padding: 0;
+}
+
+.postedby .author-social {
+    float: left;
+}
+
+.postedby .author-social a {
+    color: #000;
+    margin: 5px;
+}
+
+/*============================================
+        Author ID Style
+============================================*/
+
+span.meta_autor {
+    background: linear-gradient(to right, #284575, #a92038);
+    border-radius: 10px 20px 0 0;
+    border-top: 2px solid #d4d4d4;
+    color: #fff;
+    float: left;
+    padding: 13px 25px;
+    width: 250px;
+}
+
+span.meta_autor a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#mcontent {
+    color: #7b7b7b;
+    font-size: 12px;
+    line-height: 25px;
+    margin: 50px 25px 20px;
+}
+
+div.overlay.animated img {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    margin: 0px;
+}
+
+div.overlay.animated img:hover {
+    -webkit-filter: grayscale(100%);
+}

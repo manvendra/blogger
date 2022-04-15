@@ -1,0 +1,299 @@
+/*
+||=======================================================||
+||=======================================================||
+||                                                       ||
+||  Blogger:  Template Style                             ||
+||  Name:     BrandX Responsive Blogger Template         ||
+||  Designer: Templatezy                                 ||
+||  URL:      http://www.templatezy.com/                 ||
+||  Date:     Dec 241/2015                               ||
+||  Version:  Free Version                               ||
+||                                                       ||
+||  =================================================    ||
+||  Overhauled by: Manvendra P Singh @2022               ||
+||                                                       ||
+||=======================================================||
+||=======================================================||
+
+
+========================================================
+License:  
+========================================================
+You May Not Remove the footer credit links because 
+This free Blogger template is licensed under the 
+Creative Commons Attribution 3.0 License, 
+which permits both personal and commercial use.
+========================================================*/
+
+#navbar-iframe-container {
+    display: none !important;
+}
+#Attribution1 {
+    display: none;
+}
+
+
+/*============================================
+        Body Style  
+============================================*/
+body#layout ul {
+    list-style-type: none;
+    list-style: none;
+    padding: 0px;
+}
+
+body#layout ul li {
+    list-style-type: none;
+    list-style: none;
+    padding: 0px;
+}
+
+body#layout div.widget {
+    position: relative;
+    margin: 0 4px 3px 4px;
+    padding: 0;
+    float: none;
+}
+
+body#layout {
+    width: 1050px;
+}
+
+body#layout #header-wrapper-rec {
+    position: static;
+    margin-top: 70px;
+    width: 69%;
+}
+
+body#layout #ads-wrapperss {
+    margin-bottom: 40px;
+    padding: 0px;
+    margin-top: 50px;
+    width: auto;
+}
+
+body#layout #main-wrapper {
+    margin-top: 5px;
+}
+
+body#layout #lsidebar-wrapper {
+    margin-top: 21px;
+}
+
+body#layout #sections {
+    float: left;
+    width: 31%;
+}
+
+body#layout #frontpage {
+    float: left;
+    width: 70%;
+}
+
+body#layout #lsidebar-wrapper2:before {
+    content: 'Popular Posts';
+}
+
+body#layout #sections:before {
+    content: 'Category';
+}
+
+body#layout #header-wrapper:before {
+    content: ' contact us: templatezy.info@gmail.com ';
+}
+
+body#layout #ads-wrapperss:before {
+    content: 'Ad-bottom (728x90)';
+    width: 75%;
+}
+
+body#layout #advertise-bottom2:before {
+    content: 'Ad-Bottom (728x90)';
+}
+
+body#layout #imgbanner:before {
+    content: 'Featured Image';
+}
+
+body#layout #rsidebar-wrapper:before {
+    content: 'Sidebar Widgets';
+}
+
+body#layout #crosscol-wrapper:before {
+    content: 'Ad Top (728x90)';
+}
+
+body#layout div#main-wrapper:before {
+    content: 'Post Body';
+}
+
+body#layout #footer-widgets-container:before {
+    content: 'Bottom Footer';
+}
+
+body#layout #lsidebar-wrapper2:before,
+body#layout #rsidebar-wrapper:before,
+body#layout #sections:before,
+body#layout #advertise-bottom2:before,
+body#layout div#main-wrapper:before,
+body#layout #header-wrapper:before,
+body#layout #ads-wrapperss:before,
+#imgbanner:before,
+body#layout #footer-widgets-container:before,
+body#layout #crosscol-wrapper:before,
+
+div#section-home:before {
+    background-color: #555;
+    color: #fff;
+    padding: 15px 0;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 4px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-family: open sans, arial;
+}
+
+body#layout ul {
+    list-style-type: none;
+    list-style: none;
+}
+
+body#layout ul li {
+    list-style-type: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    margin: 0px;
+}
+
+a:link,
+a:visited {
+    color: #dd5d24;
+    text-decoration: underline;
+    outline: none;
+}
+
+a img {
+    border-width: 0;
+}
+
+#body-wrapper {
+    margin: 0px;
+    padding: 0px;
+    background: #fff;
+}
+
+
+/*===========================================
+        Outer Wrapper Style
+============================================*/
+
+#outer-wrapper {
+    width: 960px;
+    margin: 0px auto 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+#content-wrapper {
+    padding: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#main-wrapper {
+    width: 80%;
+    float: left;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+#rsidebar-wrapper {
+    width: 20%;
+    float: right;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+
+/*===========================================
+        Bottom to Top
+============================================*/
+
+
+.back-to-top {
+    left: 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.back-to-top .fa {
+    background: none repeat scroll 0 0 #202020;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 1.3em;
+    padding: 10px 13px;
+}
+
+.back-to-top .fa:hover {
+    background-color: #222;
+}
+
+
+
+/*===========================================
+     Pagination Style
+============================================*/            
+.showpageOf {
+    display: none;
+}
+
+.showpagePoint {
+    background: #434a54 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 9px 15px;
+}
+
+.showpageNum a {
+    background: #434a54 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.showpage a {
+    background: #434a54 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.showpage a:hover {
+    background: #222;
+}
+
+.showpageNum a:hover {
+    background: #222;
+}
+
+.showpageArea {
+    padding: 10px 0;
+}

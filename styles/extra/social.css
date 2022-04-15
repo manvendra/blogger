@@ -1,0 +1,437 @@
+/*============================================
+        Comments Style
+============================================*/
+
+
+#comments {}
+
+#comments-block3 {
+    padding: 0;
+    margin: 0;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+#comment-name-url {
+    width: 465px;
+    float: left;
+}
+
+#comment-date {
+    width: 465px;
+    float: left;
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.avatar-image-container {
+    background: none !important;
+    border: none !important;
+    ;
+}
+
+.datetime.secondary-text {
+    float: right;
+}
+
+.comments .comments-content .comment-content {
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.comments .comment .comment-actions a {
+    padding-right: 5px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.comments .comments-content .comment {
+    margin-bottom: 40px;
+    padding-bottom: 8px;
+}
+
+.user.blog-author a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.comment-actions a {
+    color: #fff;
+}
+
+.comment-actions {
+    padding: 10px;
+    margin-top: 20px;
+    float: right;
+    background: #222222;
+    margin-bottom: 10px;
+}
+
+.comment-block {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.comment-header {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+#comments h4 {
+    margin-left: 0px;
+    margin-top: 30px;
+    font-family: raleway;
+    font-weight: bolder;
+    line-height: 30px;
+    font-size: 30px;
+}
+
+.deleted-comment {
+    font-style: italic;
+    color: gray;
+}
+
+#blog-pager-newer-link {
+    float: $startSide;
+}
+
+#blog-pager-older-link {
+    float: $endSide;
+}
+
+#blog-pager {
+    text-align: center;
+}
+
+.feed-links {
+    display: none;
+    clear: both;
+    line-height: 2.5em;
+}
+
+
+/*============================================
+         Subscribe Style
+============================================*/
+
+div#FollowByEmail1 {
+    border: 1px solid threedface;
+    margin-top: 0;
+    padding: 0 15px;
+    width: 380px;
+}
+
+.FollowByEmail .follow-by-email-inner .follow-by-email-address {
+    border: 1px solid silver;
+    font-family: lato;
+    font-size: 14px;
+    margin-left: -5px;
+    padding: 10px;
+    width: 230px;
+}
+
+.FollowByEmail .follow-by-email-inner {
+    background: rgba(0, 0, 0, 0) url("http://2.bp.blogspot.com/-KqN5yYmdV2s/VpzNQnWBtqI/AAAAAAAADQo/wPbTgqlza1k/s000/sketch-subscribe.png") no-repeat scroll 0 0;
+    padding: 105px 5px 5px;
+    position: relative;
+}
+
+.FollowByEmail .follow-by-email-inner .follow-by-email-submit {
+    background: windowframe none repeat scroll 0 0;
+    border-radius: 0;
+    font-family: lato;
+    font-size: 14px;
+    height: 44px;
+    margin: 0 0 0 -17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    width: 100px;
+}
+
+.meta_categories_2 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.meta_categories_2 {
+    background: #fff none repeat scroll 0 0;
+    color: #111;
+    float: left;
+    font-size: 13px;
+    height: 15px;
+    line-height: 20px;
+    margin: -30px 0 -35px -8px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 30%;
+    z-index: 10;
+}
+
+/*============================================
+        Footer SOcial Style
+============================================*/
+
+.home-social-icons ul li {
+    float: left;
+    margin-right: 10px !important;
+}
+
+.home-footer-links-div ul li {
+    color: #888;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+div#crosscol-wrapper {
+    width: 728px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+/*============================================
+    Social Media Buttons Inside posts
+============================================*/
+
+.share-wrapper {
+    margin-bottom: 50px;
+}
+
+.share-wrapper a {
+    color: #fff;
+}
+
+.share-wrapper ul {
+    padding: 0;
+    margin: 0 auto;
+    display: table;
+    text-align: center;
+}
+
+.share-wrapper li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    margin-right: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.share-wrapper li:first-child {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.share-wrapper li a {
+    display: block;
+    text-align: center;
+}
+
+.share-wrapper li a i {
+    display: none;
+    color: #555;
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+    font-size: 16px;
+    background: #F0F0F0 !important;
+    border: 1px solid #DEDEDE;
+}
+
+.share-wrapper {
+    margin-bottom: 30px;
+}
+
+.share-wrapper span {
+    display: block;
+    font-size: 12px;
+    font-family: montserrat;
+    background-color: #eee;
+    line-height: 1;
+    padding: 8px 25px;
+    color: #fff;
+}
+
+li.facebook_share span {
+    background-color: #3b5998;
+}
+
+li.twitter_share span {
+    background-color: #00aced;
+}
+
+li.pinterest_share span {
+    background-color: #cb2027;
+}
+
+li.google_share span {
+    background-color: #dd4b39;
+}
+
+li.linkedin_share span {
+    background-color: #007bb6;
+}
+
+.share-wrapper>.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+/*============================================
+         Profile Style
+============================================*/
+
+
+.profile-img {
+    float: $startSide;
+    margin-top: 0;
+    margin-$endSide: 5px;
+    margin-bottom: 5px;
+    margin-$startSide: 0;
+    padding: 4px;
+    border: 1px solid $bordercolor;
+}
+
+.profile-data {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font: $postfooterfont;
+    color: $sidebarcolor;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+
+.profile-datablock {
+    margin: .5em 0 .5em;
+}
+
+.profile-textblock {
+    margin: 0.5em 0;
+    line-height: 1.6em;
+}
+
+.avatar-image-container {
+    background: url(http://2.bp.blogspot.com/-y_SocC7OjFE/VpzNQKvCL2I/AAAAAAAADQk/W32Pw4mlFDI/s000/comment-avatar.jpg);
+    width: 32px;
+    height: 32px;
+    float: right;
+    margin: 5px 10px 5px 5px;
+    border: 1px solid #ddd;
+}
+
+.avatar-image-container img {
+    width: 32px;
+    height: 32px;
+}
+
+.profile-link {
+    font: $postfooterfont;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+#navbar-iframe {
+    height: 0;
+    visibility: hidden;
+    display: none;
+}
+
+.post-outer {
+    float: left;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px 0px #000000;
+    border: 1px solid #c2c2c2;
+    padding: 30px;
+}
+
+/* Logo Slider */
+
+/*
+                        jQuery Logo Slider Ticker
+                        by http://webdesignandsuch.com
+                        build with code from http://bxslider.com
+                        */
+.bx-wrapper img {
+    border: 1px solid #ECECEC;
+}
+
+#slider {
+    list-style: none;
+    padding: 0px;
+}
+
+#slider img {
+    width: 200px;
+    height: 125px;
+    margin: 0px;
+    display: inline-block;
+}
+
+#slider li {
+    width: 210px;
+}
+
+.slider-container-c {
+    width: 980px;
+    margin: auto;
+}
+
+div.slider-container {
+    text-align: center;
+    background-image: url(http://www.acquacreativestudio.com/sites/emblem/img/pattern.jpg);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div.bx-wrapper {
+    width: 980px !important;
+}
+
+div.bx-window {
+    width: 980px !important;
+}
+
+div.slider-container-c h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+div.slider-container-c p {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+/*============================================
+        Copyrights
+============================================*/
+
+.copyright {
+    background-color: #1f2021;
+    border-top: 1px solid #414141;
+    padding: 0;
+}
+
+.copyright p {
+    color: #7E7E7E;
+    text-align: center;
+    font-weight: 100;
+}
+
+.copyright p a {
+    color: #fff;
+    text-decoration: none;
+}

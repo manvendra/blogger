@@ -1,0 +1,25 @@
+/*============================================
+         Ads Wrappers  Bottom     
+============================================*/
+
+#ads-wrapperss {
+    clear: both;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#ads-wrapperss img {
+    width: 100%
+}
+
+#ads-wrapper {
+    width: 720px;
+    margin: auto;
+}
+
+#ads-wrapperss h2 {
+    display: none;
+}

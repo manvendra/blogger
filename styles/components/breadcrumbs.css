@@ -1,0 +1,66 @@
+
+/*============================================
+             BreadCrumbs Style
+============================================*/
+
+#breadcrumbs {
+    background: snow none repeat scroll 0 0;
+    border-bottom: 1px solid #e7e7e7;
+    float: left;
+    margin: -30px -29px 33px;
+    padding: 15px 50px 15px 10px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+#breadcrumbs li {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+#breadcrumbs li a {
+    color: #91949a;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+div.bread-contain {
+    width: 950px;
+    margin: auto;
+}
+
+.seperator {
+    float: left;
+    margin-right: 10px;
+}
+
+.status-msg-body {
+    text-align: left;
+    font-size: 16px;
+}
+
+.status-msg-wrap {
+    background: #fff;
+    /* float: left; */
+    width: 625px;
+    text-align: left;
+    margin-bottom: 20px;
+    float: left;
+    border-bottom: #d2d2d2 1px solid;
+    padding-bottom: 10px;
+    display: none;
+}
+
+.status-msg-border {
+    border: none;
+}
+
+.status-msg-body a {
+    display: none;
+}
+
+.status-msg-body {
+    background: #fff;
+}
