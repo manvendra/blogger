@@ -19,21 +19,25 @@
 
 .tv .tv-unit .big-title {
     color: #fff;
-    font-family: Lato, serif;
-    font-size: 5em;
-    font-weight: 900;
-    text-shadow: 1px 1px 2px rgba(50, 50, 50, 0.59);
+    font-family: 'Lato';
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-shadow: 0.3rem 0.3rem 0.1rem rgb(50 50 50 / 59%);
     text-transform: uppercase;
 }
 
 .tv .tv-unit .sub-title {
     display: block;
     color: #fff;
-    font-size: 1em;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    padding: 20px 0;
-    margin-bottom: 10px;
+   
+    font-size: 1rem;
+    font-style: italic;
+    text-shadow: 0.1rem 0.02rem black;
+    text-transform: capitalize;
+    letter-spacing: .1rem;
+   
+    padding: 1.25em 0;
+    margin-bottom: 0.8rem;
 }
 
 .tv .tv-unit .sub-title:before,
@@ -104,7 +108,11 @@
     overflow: hidden
 }
 
-#container,#header,#main,#main-fullwidth,#footer,
+#container,
+#header,
+#main,
+#main-fullwidth,
+#footer,
 .clearfix {
     display: block
 }
@@ -277,7 +285,7 @@ div.item-snippet {
 
 .urClass {
     color: #fff !important;
-    )
+    
 }
 
 .body2colorClass {
