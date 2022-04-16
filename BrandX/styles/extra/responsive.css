@@ -223,7 +223,7 @@
     }
 
     div#footer-widgets {
-        width: 1300px;
-        margin: auto;
+        width: 100%;
+        margin: 0% 5%;
     }
 }
