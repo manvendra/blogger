@@ -20,22 +20,22 @@
 .tv .tv-unit .big-title {
     color: #fff;
     font-family: 'Lato';
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: 700;
-    text-shadow: 0.3rem 0.3rem 0.1rem rgb(50 50 50 / 59%);
+    text-shadow: 0.05rem 0.05rem 0.1rem rgb(50 50 50 / 59%);
     text-transform: uppercase;
 }
 
 .tv .tv-unit .sub-title {
     display: block;
     color: #fff;
-   
+
     font-size: 1rem;
     font-style: italic;
-    text-shadow: 0.1rem 0.02rem black;
+    text-shadow: 0.05rem 0.05rem 0.09rem black;
     text-transform: capitalize;
     letter-spacing: .1rem;
-   
+
     padding: 1.25em 0;
     margin-bottom: 0.8rem;
 }
