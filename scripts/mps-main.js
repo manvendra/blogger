@@ -458,7 +458,10 @@ function printRelatedLabels_thumbs(current) {
 
 /*==================================
    from Bottom of page
-==================================*/
+   This isusing <b:if condition tag so keeping in the xml file comenting here
+==================================
+
+
 function showpageCount(json) {
     var thisUrl = home_page_url;
     var htmlMap = new Array();
@@ -636,3 +639,4 @@ if (thisUrl.indexOf("?q=") == -1) {
         document.write('<script src="' + home_page + 'feeds/posts/full/-/' + lblname1 + '?alt=json-in-script&callback=showpageCount2&max-results=99999" ><\/script>')
     }
 }
+*/
