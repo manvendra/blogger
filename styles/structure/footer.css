@@ -68,9 +68,10 @@
 
 .footer-widget-box-posts {
     float: left;
-    margin-left: 15px;
-    padding-left: 30px;
-    width: 55%;
+    margin-left: 1rem;
+    padding-left: 0.8rem;
+    width: 60%;
+    box-shadow: 6px 10px 7px 3px rgb(1 1 1 / 15%);
 }
 
 .footer-widget-box-last {}
@@ -96,14 +97,14 @@
 }
 
 #footer-widgets h2 {
-    background: #3d63a1 none repeat scroll 0 0;
-    border-radius: 0 100px 0 0;
-    border-right: 20px solid;
+    background: #222 none repeat scroll 0 0;
+    border-radius: 0 50px 0 0;
+    border-right: 10px transparent;
     color: #f5f5f5;
     font-family: raleway, lato, arial, sans-serif;
-    font-size: 15px;
+    font-size: 1.2em;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 10px;
     text-transform: capitalize;
 }
